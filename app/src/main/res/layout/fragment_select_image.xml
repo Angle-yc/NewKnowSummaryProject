@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.angle.hshb.newknowsummaryproject.fragments.SelectImageFragment">
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="拍照"
+        />
+    <Button
+        android:id="@+id/btn_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读取相册"
+        />
+    <ImageView
+        android:id="@+id/iv_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
