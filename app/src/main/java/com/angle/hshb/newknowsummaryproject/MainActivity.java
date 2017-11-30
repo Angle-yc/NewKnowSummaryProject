@@ -32,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
         addFragment();
         initViewPager();
         initTabLayout();
+        /**
+         * 创建分支1.0
+         */
     }
 
     /**
